@@ -43,3 +43,12 @@ gpg --output OUTPUT_FILE.gpg --encrypt --recipient user@email INPUT_FILE
 gpg --decrypt FILE
 ```
 
+
+- - -
+
+Now Alice cansafely publish her public key anywhere.
+Bob will import it and use to sign messages for Alice.
+Protection par excellence 👌️
+
+> Bruce Schneier believes safewords are fundamentally insecure and recommends that you ask your partner to stop via public key signature.
+[source](https://www.explainxkcd.com/wiki/index.php/1039:_RuBisCO) 
